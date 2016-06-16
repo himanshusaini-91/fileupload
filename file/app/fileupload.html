@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="script/bower/angular.min.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/factory/factory.js"></script>
+    <script src="script/controller/controller.js"></script>
+
+</head>
+<body ng-app="file">
+<form enctype="multipart/form-data">
+    <div ng-controller="ctrl">
+        <input type="file" name="myfile" file-Model="myfile"><span></span>
+        <button ng-click="fileupload()">Upload File</button>
+    </div>
+</form>
+
+
+
+</body>
+</html>
